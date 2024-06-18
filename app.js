@@ -1,6 +1,6 @@
 const express=require("express")
 const mongoose=require("mongoose")
-const cors=require("cors")
+const cors=require ("cors")
 const bcryptjs=require("bcryptjs")
 
 
@@ -33,8 +33,8 @@ app.post ("/signup",async(req,res)=>{
     user.save()
     res.json({"status":"success"})
 
-
-
+})
+    
 
 
 
